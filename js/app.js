@@ -31,7 +31,7 @@ function limpar(){
     apagarSections();
     // Limpar total
     valorTotal = 0;
-    campoTotal.innerHTML = valorTotal;
+    campoTotal.innerHTML = `R$${valorTotal}`;
 
 }
 
