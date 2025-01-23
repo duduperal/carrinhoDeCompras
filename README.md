@@ -1,36 +1,60 @@
-# Carrinho de Compras 🛒
+# Carrinho de Compras
 
-## Descrição do Projeto
-Este é um projeto de carrinho de compras desenvolvido durante o curso Iniciante em Programação da Alura, utilizando JavaScript, HTML e CSS. O objetivo é criar uma aplicação web interativa para simulação de compras online.
+Este é um projeto de um **Carrinho de Compras** desenvolvido com as linguagens **JavaScript**, **HTML** e **CSS**. Ele foi criado como parte do curso **Iniciante em Programação** da [Alura](https://www.alura.com.br/).
+
+## 📚 Descrição
+
+O projeto é uma aplicação simples que simula o funcionamento básico de um carrinho de compras online. Ele permite que os usuários:
+
+- Adicionem itens ao carrinho.
+- Removam itens do carrinho.
+- Visualizem o valor total dos itens adicionados.
+
+O foco principal do projeto foi o aprendizado das bases do desenvolvimento web utilizando **HTML**, **CSS** e **JavaScript**, além da prática de lógica de programação.
 
 ## 🚀 Tecnologias Utilizadas
-- JavaScript
-- HTML
-- CSS
 
-## 📦 Funcionalidades
-- Adicionar produtos ao carrinho
-- Remover produtos do carrinho
-- Calcular valor total das compras
-- Interface responsiva e intuitiva
+- **HTML**: Estrutura do projeto.
+- **CSS**: Estilização para melhorar o visual.
+- **JavaScript**: Lógica para funcionalidades do carrinho.
 
-## 🛠️ Como Usar
-1. Clone o repositório
-2. Abra o arquivo `index.html` em seu navegador
-3. Explore as funcionalidades do carrinho de compras
+## 🛠️ Funcionalidades
 
-## 🌟 Aprendizados
-Projeto desenvolvido como parte do curso de programação, focando em:
-- Manipulação do DOM
-- Eventos em JavaScript
-- Lógica de programação básica
+- **Adicionar Itens**: Adicione produtos ao carrinho com um clique.
+- **Remover Itens**: Exclua produtos do carrinho de forma dinâmica.
+- **Calcular Total**: Veja o valor total dos itens no carrinho.
 
-## 🔗 Links
-- [Repositório GitHub](https://github.com/duduperal/carrinhoDeCompras)
-- [Curso Alura - Iniciante em Programação](https://www.alura.com.br)
+## 🧑‍💻 Desenvolvimento
+
+O projeto foi desenvolvido de forma independente, com pesquisa e aprendizado de funções e comandos. Ele reflete uma etapa inicial no aprendizado de desenvolvimento web.
+
+## 📂 Estrutura do Repositório
+
+O repositório contém os seguintes arquivos principais:
+
+- `index.html`: Estrutura do projeto.
+- `style.css`: Estilos aplicados à interface.
+- `script.js`: Lógica do carrinho de compras.
+
+## 📖 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/duduperal/carrinhoDeCompras.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd carrinhoDeCompras
+   ```
+3. Abra o arquivo `index.html` em um navegador.
+
+## 🌟 Próximos Passos
+
+- Adicionar persistência de dados com LocalStorage.
+- Implementar a funcionalidade de quantidade para cada item.
+- Criar uma interface mais responsiva.
 
 ## 📝 Autor
-duduperal - Peral Dev
 
-## Disclaimer
-Projeto de estudo - Sem licença específica
+Desenvolvido por **[Eduardo](https://github.com/duduperal)**.  
+Este projeto foi feito como parte do aprendizado no curso de **Iniciante em Programação** da Alura.  
