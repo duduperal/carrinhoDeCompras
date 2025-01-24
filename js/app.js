@@ -1,7 +1,10 @@
 // Variáveis globais para facilitar a vida
-let valorTotal = 1400; 
+let valorTotal = 0; 
 let campoTotal = document.getElementById('valor-total');
 let listaDoCarrinho = document.getElementById('lista-produtos');
+//Limpando o campo da lista do carrinho e o campo total
+limpar()
+
 function adicionar(){
     // Recuperar nome do produto, quantidade e valor do produto
     let quantidade = document.getElementById('quantidade').value;
@@ -28,26 +31,13 @@ function limpar(){
     // Limpar Campo quantidade
     limparQuantidade();
     // Limpar Lista do Carrinho
-    apagarSections();
+    listaDoCarrinho.innerHTML = '';
     // Limpar total
     valorTotal = 0;
-    campoTotal.innerHTML = `R$${valorTotal}`;
+    campoTotal.innerHTML = 'R$ 0';
 
 }
 
 function limparQuantidade(){
     document.getElementById('quantidade').value = '';
-}
-
-function apagarSections() {
-    // Seleciona a seção pai
-    const listaProdutos = document.getElementById('lista-produtos');
-    
-    // Seleciona todas as sections filhas
-    const sectionsFilhas = listaProdutos.querySelectorAll('section');
-
-    // Remove cada section filha
-    sectionsFilhas.forEach(section => {
-        listaProdutos.removeChild(section);
-    });
 }
